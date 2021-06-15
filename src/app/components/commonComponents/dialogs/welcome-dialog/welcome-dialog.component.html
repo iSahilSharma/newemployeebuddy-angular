@@ -1,0 +1,14 @@
+<div mat-dialog-content>
+    <mat-form-field appearance="fill">
+        <mat-label>Select Country</mat-label>
+        <mat-select>
+            <mat-option *ngFor="let country of countries" [value]="country">
+                {{country}}
+            </mat-option>
+        </mat-select>
+    </mat-form-field>
+</div>
+
+<div mat-dialog-actions>
+    <button mat-raised-button color="primary" (click)="onSubmit()">Submit</button>
+</div>

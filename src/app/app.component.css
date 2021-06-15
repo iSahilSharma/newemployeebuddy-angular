@@ -1,0 +1,15 @@
+.header {
+  height: 40px;
+  background-color: #999;
+}
+.content-container {
+  display: flex;
+  flex-direction: row;
+}
+.sidebar {
+  background-color: #ffaa00;
+  min-width: 200px;
+}
+.content {
+  flex: 1;
+}
